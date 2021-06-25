@@ -39,7 +39,7 @@
 
 
 :root {
-    --background-image: url(https://solonovamax.github.io/CatBoyTheme/assets/catboy-2.png);
+    --background-image: url(https://solonovamax.github.io/CatBoyTheme/assets/catboy-2-smaller.png);
     --friends-icon: url(https://i.imgur.com/63g6Em8.jpg);
     --main-transparency: rgba(0, 0, 0, 0.5);
     --unread-server-animation: rainbow;
@@ -56,7 +56,7 @@
     --background-secondary: var(--main-transparency);
     /*Defaults to rgb(32, 34, 37)*/
     --background-tertiary: var(--main-transparency);
-    --theme-color: rgba(119, 89, 115, 1)
+    --highlight-color: rgba(119, 89, 115, 1)
 }
 /** Friends Icon */
 .tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn {
