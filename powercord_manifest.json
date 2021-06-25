@@ -1,9 +1,9 @@
   
 {
-    "name": "LogosKawaii",
-    "version": "0.0.1",
-    "author": "Logos King#0001",
+    "name": "Catboy Discord Theme",
+    "version": "0.0.2",
+    "author": "solonovamax#6983",
     "license": "MIT",
     "theme": "index.css",
-    "description": "A poggies catgirl theme. A moshposh that combines my personal theme with Nebula"
+    "description": "A poggies catboy theme. I just modified https://github.com/Logos-King/CatGirlTheme for a friend."
 }
