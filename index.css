@@ -56,7 +56,10 @@
     --background-secondary: var(--main-transparency);
     /*Defaults to rgb(32, 34, 37)*/
     --background-tertiary: var(--main-transparency);
-    --highlight-color: rgba(255, 120, 220, 1);
+    --highlight-color-text: 255, 120, 220;
+    --highlight-color: rgba(var(--highlight-color-text), 1);
+    --scroll-bar-color-text: 255, 120, 220;
+    --scroll-bar-color: rgba(var(--scroll-bar-color-text), 1);
 }
 /** Friends Icon */
 .tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn {
@@ -172,8 +175,9 @@
 .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     background-clip: padding-box;
     background-color: var(--scroll-bar-color);
-    border: 3px solid rgba(0, 0, 0, 0);
+    border: 3px solid rgba(255, 255, 255, 0);
     border-radius: 7px;
+    opacity: 1.0;
 }
 
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
@@ -243,4 +247,59 @@
 
 .auto-Ge5KZx::-webkit-scrollbar-track {
     background-color: transparent;
+}
+
+.isUnread-3Ef-o9 {
+    border-color: var(--highlight-color);
+    border-top: thin solid var(--highlight-color);
+}
+
+.unreadPillCapStroke-7rkHbg {
+    color: var(--highlight-color);
+    fill: var(--highlight-color);
+}
+
+.unreadPillCap-3_K2q2 {
+    display: block;
+    left: -8px;
+    top: 0;
+}
+
+.unreadPill-2HyYtt {
+    color: #ffffff ;
+    background-color: var(--highlight-color)
+}
+
+.unread-1xRYoj {
+    background-color: var(--highlight-color);
+  	opacity: 0.75;
+}
+
+.numberBadge-2s8kKX, .unread-2lAfLh {
+  	background-color: var(--highlight-color) !important;
+}
+
+.mention-1f5kbO, .ucbadge.numberBadge-2s8kKX {
+  	background-color: var(--highlight-color) !important
+}
+
+.pill-1z4sAY .item-2hkk8m {
+    background-color: var(--highlight-color)
+}
+
+.icon-1DeIlz path {
+    fill: var(--highlight-color) !important
+}
+
+.timestamp-3ZCmNB time {
+    color: rgba(var(--highlight-color-text), 0.9);
+	  filter: brightness(75%);
+}
+
+.form-2fGMdU {
+  	margin-top: 0px;
+}
+
+.unreadBar-3t3sYc {
+    background-color: var(--highlight-color);
 }
