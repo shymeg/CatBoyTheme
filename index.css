@@ -39,7 +39,7 @@
 
 
 :root {
-    --background-image: url(https://logos-king.is-inside.me/dtPfm8BA.jpg);
+    --background-image: url(https://solonovamax.github.io/CatBoyTheme/assets/);
     --friends-icon: url(https://i.imgur.com/63g6Em8.jpg);
     --main-transparency: rgba(0, 0, 0, 0.5);
     --unread-server-animation: rainbow;
@@ -49,13 +49,14 @@
     --selected-text-voice-color: #f6f6f7;
     --channel-hover-text-color: rgba(255, 255, 255, 0.75);
     --unread-text-color: #dcddde;
-    --user-popout-background: rbga(255, 255, 255, 1);
+    --user-popout-background: rgba(255, 255, 255, 1.00);
     /*Defaults to rgb(54, 57, 63)*/
     --background-primary: var(--main-transparency);
     /* Defaults to rgb(rgba(47, 49, 54)*/
     --background-secondary: var(--main-transparency);
     /*Defaults to rgb(32, 34, 37)*/
     --background-tertiary: var(--main-transparency);
+    --theme-color: rgba(119, 89, 115, 1)
 }
 /** Friends Icon */
 .tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn {
