@@ -1,7 +1,7 @@
 Basically, I took some elements from
 
 - https://github.com/Logos-King/CatGirlTheme
-  who took some lements from
+  who took some elements from
   
   - https://github.com/NYRI4/Discolored
   
