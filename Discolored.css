@@ -69,12 +69,12 @@
     background-image: url('https://nyri4.github.io/Discolored/assets/friend.svg');
 }
 
-/* 🤷‍♂️ GIF not found */
+/* 🤷 GIF not found */
 .theme-dark .sadImage-2ph8SI, .theme-light .sadImage-2ph8SI {
     background-image: url('https://nyri4.github.io/Discolored/assets/gif_not_found.svg');
 }
 
-/* 🤷‍ GIF picker end */
+/* 🤷 GIF picker end */
 .theme-dark .endContainer-1ZDW8j:after, .theme-light .endContainer-1ZDW8j:after {
     background-image: url('https://nyri4.github.io/Discolored/assets/gif_picker_end.svg');
 }
@@ -178,8 +178,13 @@
 }
 
 /* 🔴 Streamer Mode */
+.theme-dark .streamerModeEnabledImage-3vynUz {
+    background-image: url('https://nyri4.github.io/Discolored/assets/streamer_mode.svg'); !important
+}
+
+/* 🔴 Streamer Mode */
 .theme-dark .streamerModeEnabledImage-3vynUz, .theme-light .streamerModeEnabledImage-3vynUz {
-    background-image: url('https://nyri4.github.io/Discolored/assets/streamer_mode.svg'); 
+    background-image: url('https://nyri4.github.io/Discolored/assets/streamer_mode.svg');
 }
 
 /* ↔️ Switch */
