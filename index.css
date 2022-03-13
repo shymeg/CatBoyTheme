@@ -82,7 +82,7 @@
 }
 /** Transparency */
 .theme-dark .children-1MGS9G:after { background:none; }
-.container-3w7J-x {
+.container-1NXEtd {
     background-color: transparent !important;
 }
 /* Removes some weird things */
@@ -101,7 +101,7 @@
 .app-3xd6d0 {
     background: transparent;
 }
-.typeWindows-1za-n7 {
+.typeWindows-2-g3UY {
     height: 23px;
     margin-top: 0px;
     background: var(--main-transparency);
@@ -115,23 +115,23 @@
 [class*=embedFull-] {
     background: rgba(0,0,0,0.4);
 }
-.wrapper-3vR61M, .wrapper-1F5TKx {
+.wrapper-3HVHpV, .wrapper-15CKyy {
     background-color: transparent !important;
 }
-.scroller-1JbKMe {
+.scroller-WSmht3 {
     background-color: transparent;
 }
 [class*=privateChannels-] {
     background-color: rgba(0,0,0,0);
 }
-.container-1r6BKw {
+.container-ZMc96U {
     background: rgba(255, 255, 255, 0) !important;
 }
-.container-1D34oG {
+.container-2cd8Mz {
     background-color: var(--main-transparency) !important;
 }
 /*Friends Transparency*/
-.wrapper-3D2qGf {
+.wrapper-2RrXDg {
     background-color: rgba(0,0,0,0.4);
 }
 [class*=nowPlayingColumn-] {
@@ -144,7 +144,7 @@
 .theme-dark [class*=contentRegion-] {
     background: transparent;
 }
-.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+.theme-dark .layer-86YKbF, .theme-dark .layers-OrUESM {
     background: rgba(0, 0, 0, 0);
 }
 [class*=sidebarRegionScroller-] {
@@ -153,9 +153,9 @@
 /*Full screen settings*/
 [aria-label*=USER_SETTINGS] [class*=sidebar-]{padding-top: 10px;padding-bottom: 10px;padding-left: 0px;}
 [class*=sidebarRegion-] {flex: 0 0 auto;}
-[class*=contentColumn-], .customColumn-Rb6toI {max-width: unset;}
-.platform-osx .sidebar-CFHs9e{padding-top: 30px;}
-.container-2VW0UT{width:180%;}
+[class*=contentColumn-], .customColumn-2n-oKU {max-width: unset;}
+.platform-osx .sidebar-nqHbhN{padding-top: 30px;}
+.container-20TyK0{width:180%;}
 /**/
 
 /** Scrollbars */
